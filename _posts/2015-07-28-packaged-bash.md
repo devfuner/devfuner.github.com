@@ -5,12 +5,10 @@ category: blog
 tags: [bash, applescript]
 ---
 
-#쉘스크립트를 앱으로 래핑하기
 이 위키를 만들면서 불편한 점은 수정한 것이 생길때마다 터미널에서 커밋을 해줘야한다는 것이다.  
 그나마 쉘스크립트로 커밋은 한번에 할 수 있다.  
 
 ###### 파일이름: sync.sh
-
 ```bash
 #!/bin/bash -v
 git pull
@@ -41,8 +39,8 @@ git push origin master
 이제 터미널에서 쉘스크립트 실행하는 것보다 간편하게 하는 방법을 알아보자.  
 sync를 해주는 응용프로그램을 만들고 그것만 더블클릭하면 sync가 되도록 할것이다.  
 우선 *스크립트 편집기*를 실행해서 아래의 애플스크립트를 붙여넣는다.  
-###### 파일이름: wiki sync.app
 
+###### 파일이름: wiki sync.app
 ```applescript
 tell application "Terminal"
     -- 터미널을 실행하고 쉘스크립트를 실행한 후 12초 후에 터미널 종료
