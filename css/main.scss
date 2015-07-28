@@ -50,3 +50,14 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.pagination {
+    list-style-type: none;
+    font-size: 0.9em;
+    padding-left: 0;
+    li {
+        position: relative;
+        float: left;
+        padding: 6px 12px;
+    }
+}
