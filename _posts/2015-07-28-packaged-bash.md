@@ -54,7 +54,7 @@ tell application "Terminal"
 end tell
 ```
 
-![애플스크립트](image/packaged-bash/f2f1c71c_002.jpg)  
+![애플스크립트](/image/packaged-bash/f2f1c71c_002.jpg)  
 ![애플스크립트](image/packaged-bash/f2f1c71c_003.jpg)  
 
 이 스크립트를 붙여넣고 저장할때 응용프로그램으로 선택하고 저장하면 끝난다.  
