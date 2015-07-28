@@ -7,14 +7,14 @@
   <title>
     {{ page.title }}
     {% if page.category == 'blog' and page.url != '/blog/index.html' %}
-    - @n0lb00's Blog
+    - {{ site.title }}
     {% endif %}
   </title>
 <!--   <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700,400|Titillium+Web:700,400"> -->
   <link rel="stylesheet" href="/css/site.css">
   <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   {% if page.description %}<meta name="description" content="{{page.description}}" />{% endif %}
-  <link rel="alternate" type="application/atom+xml" title="RSS Feed for Nolboo's blog" href="/feed.xml" />
+  <link rel="alternate" type="application/atom+xml" title="RSS Feed for {{ site.title }}" href="/feed.xml" />
   <script src="/js/instantclick.min.js" data-no-instant></script>
   <script data-no-instant>InstantClick.init();</script>
 <!--   {% if page.url == '/index.html' %}
@@ -32,16 +32,15 @@
     <div class="site">
       <header>
         <nav>
-          <a class="{% if page.category == '/' %} selected {% endif %}" href="/">홈</a>
+          <a class="{% if page.category == '/' %} selected {% endif %}" href="/">Home</a>
           <a class="{% if page.category == 'archive' %} selected {% endif %}" href="/archive/">전체글</a>
-          <a class="{% if page.category == 'trans' %} selected {% endif %}" href="//github.com/nolboo/nolboo.github.io/wiki">번역글 위키</a>
         </nav>
         <div class="pull-right right logo">
           <div class="name">
-            <a href="/">Nolboo's Blog</a><br />
+            <a href="/">{{ site.title }}</a><br />
             <small>
               <em>
-                  <a href="/">Learn to do. Learn by doing.</a>
+                  <a href="/">{{ site.description }}</a>
               </em>
             </small>
           </div>
