@@ -20,7 +20,7 @@ redcarpet:
       - autolink
       - hard_wrap
 
-paginate: 5
+paginate: 10
 
 
 author:

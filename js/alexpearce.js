@@ -146,7 +146,6 @@ var replaceERBTags = function(elements) {
 };
 
 $(function() {
-  alert('alex pearce')
   var map = {
     'category' : getParam('category'),
     'tags'     : getParam('tags'),
