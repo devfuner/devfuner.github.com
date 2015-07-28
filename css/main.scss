@@ -81,3 +81,62 @@ html[xmlns] .clearfix {
 * html .clearfix {
     height: 1%;
 }
+
+.cf {
+    *zoom: 1;
+    &:before {
+        content: "";
+        display: table;
+    }
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+//colors
+$color_submarine_approx: #bcc5c8;
+$color_nevada_approx: #5e6d74;
+
+.tags {
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.8em;
+    li {
+        float: left;
+        margin: 0 7px;
+        a {
+            padding: 1px 12px 2px;
+            color: $color_submarine_approx;
+            &:hover {
+                color: $color_nevada_approx;
+            }
+        }
+    }
+}
+.post-tags {
+    margin: 20px 0 0;
+}
+
+//colors
+$color_mountain_mist_approx: #999;
+
+//fonts
+$font_0: Titillium Web;
+$font_1: monospace;
+
+ul.posts {
+    list-style-type: none;
+    margin-bottom: 2em;
+    padding-left: 0;
+    li {
+        line-height: 1.4em;
+    }
+    .date {
+        color: $color_mountain_mist_approx;
+        font-family: $font_0, $font_1;
+        font-size: 90%;
+        margin-right: 0.5em;
+    }
+}
