@@ -11,8 +11,7 @@ tags: [bash, applescript]
 
 ###### 파일이름: sync.sh
 
-```
-#!bash
+```bash
 #!/bin/bash -v
 git pull
 git add . -A
@@ -43,8 +42,8 @@ git push origin master
 sync를 해주는 응용프로그램을 만들고 그것만 더블클릭하면 sync가 되도록 할것이다.  
 우선 *스크립트 편집기*를 실행해서 아래의 애플스크립트를 붙여넣는다.  
 ###### 파일이름: wiki sync.app
-```
-#!applescript
+
+```applescript
 tell application "Terminal"
     -- 터미널을 실행하고 쉘스크립트를 실행한 후 12초 후에 터미널 종료
     activate
