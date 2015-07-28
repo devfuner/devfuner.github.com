@@ -2,10 +2,23 @@ title: Devfuner's blog
 email: devfuner@gmail.com
 description: Life Automation
 
-
+safe: true
 highlighter: pygments
+lsi: false
+
+permalink: pretty
+
 markdown: redcarpet
 
+redcarpet:
+    extensions: 
+      - no_intra_emphasis
+      - fenced_code_blocks
+      - tables
+      - strikethrough
+      - superscript
+      - autolink
+      - hard_wrap
 
 paginate: 5
 
