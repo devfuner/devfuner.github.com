@@ -19,7 +19,7 @@ git push origin master
 
 아래 이미지의 방법으로 간단하게 단축키로 실행할 수 있다.
 
-![알프레드설정](/images/posts/alfred-hotkey/e01edbfc_001.png)
+![알프레드설정](/images/posts/alfred-hotkey/e01edbfc_001.png)  
 ![알프레드설정](/images/posts/alfred-hotkey/e01edbfc_002.png)  
 ![알프레드설정](/images/posts/alfred-hotkey/e01edbfc_003.png)  
 ![알프레드설정](/images/posts/alfred-hotkey/e01edbfc_004.png)  
