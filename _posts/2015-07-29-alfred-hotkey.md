@@ -5,7 +5,7 @@ category: blog
 tags: [bash, Alfred, workflow]
 ---
 
-이 방법보다는 
+[쉘스크립트를 앱으로 래핑하기](http://devfuner.github.io/blog/2015/07/28/packaged-bash/)이 방법보다는 
 알프레드의 파워팩을 가지고 있다면 이 방법이 가장 깔끔하다.
 
 아래와 같은 bash 스크립트가 있다면
