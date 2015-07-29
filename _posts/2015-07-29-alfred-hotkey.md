@@ -1,5 +1,7 @@
 ---
+layout: post
 title: 알프레드로 쉘 실행하기
+category: blog
 tags: [bash, Alfred, workflow]
 ---
 
