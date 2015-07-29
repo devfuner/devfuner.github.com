@@ -24,7 +24,7 @@ git push origin master
 >prompt> ./sync.sh  
 
 
-![나의 실행 화면](/images/packaged-bash/f2f1c71c_001.jpg)  
+![나의 실행 화면](/images/posts/packaged-bash/f2f1c71c_001.jpg)  
 커밋을 한 직후라서 커밋할 내용이 없다.  
 
 
@@ -54,8 +54,8 @@ tell application "Terminal"
 end tell
 ```
 
-![애플스크립트](/images/packaged-bash/f2f1c71c_002.jpg)  
-![애플스크립트](/images/packaged-bash/f2f1c71c_003.jpg)  
+![애플스크립트](/images/posts/packaged-bash/f2f1c71c_002.jpg)  
+![애플스크립트](/images/posts/packaged-bash/f2f1c71c_003.jpg)  
 
 이 스크립트를 붙여넣고 저장할때 응용프로그램으로 선택하고 저장하면 끝난다.  
 그럼 스크립트의 내용부터 한번 보자.  
