@@ -19,28 +19,28 @@ Automator를 실행하시고 작업흐름으로 생성해주세요.
     ![Automator](/images/posts/webpage-to-app/5864fcd2_002.png)
     - Automator의 보관함 > 인터넷 > 웹 사이트 팝업 ▼
     ![Automator](/images/posts/webpage-to-app/5864fcd2_003.png)
-    지정된 URL 가져오기에는 앱에서 실행될 웹페이지의 주소를 입력해주세요.
-    웹 사이트 팝업에서는 앱의 크기를 지정해줍니다.
-    간편하게 아이폰이나 아이패드의 크기로 하실 수도 있고 직접 지정하실 수도 있습니다.
-    오른쪽 위에 있는 실행을 눌러서 직접 실행 해보고 알맞은 크기를 지정하세요.
-    참고로 이 크기는 실행 될 때의 초기값일뿐이며 앱을 실행한 후에도 앱의 크기는 변경할 수 있습니다.
-    1단계는 우선 다 됐습니다.
+    지정된 URL 가져오기에는 앱에서 실행될 웹페이지의 주소를 입력해주세요.  
+    웹 사이트 팝업에서는 앱의 크기를 지정해줍니다.  
+    간편하게 아이폰이나 아이패드의 크기로 하실 수도 있고 직접 지정하실 수도 있습니다.  
+    오른쪽 위에 있는 실행을 눌러서 직접 실행 해보고 알맞은 크기를 지정하세요.  
+    참고로 이 크기는 실행 될 때의 초기값일뿐이며 앱을 실행한 후에도 앱의 크기는 변경할 수 있습니다.  
+    1단계는 우선 다 됐습니다.  
     이 상태로 적당한 곳에 저장을 해주세요. ▼
     ![Automator](/images/posts/webpage-to-app/5864fcd2_004.png)  
 
 2. Automator 작업흐름을 응용 프로그램(앱)으로
     1단계에서 저장한 작업흐름을 그대로 응용 프로그램을 변환하도록 하겠습니다.
     파일 > 다음으로 변환 을 실행해주세요. ▼
-    ![Automator](/images/posts/webpage-to-app/5864fcd2_005.png)
+    ![Automator](/images/posts/webpage-to-app/5864fcd2_005.png)  
     새로운 Automator가 생겼죠?
     여기서 유형 선택을 응용 프로그램으로 선택해주세요. ▼
-    ![Automator](/images/posts/webpage-to-app/5864fcd2_006.png)
+    ![Automator](/images/posts/webpage-to-app/5864fcd2_006.png)  
     지정된 URL 가져오기를 오른쪽클릭해서 나오는 메뉴에서 입력 무시를 클릭합니다. ▼
-    ![Automator](/images/posts/webpage-to-app/5864fcd2_007.png)
+    ![Automator](/images/posts/webpage-to-app/5864fcd2_007.png)  
     이상태에서 응용 프로그램으로 저장만 해주시면 됩니다. ▼
-    ![Automator](/images/posts/webpage-to-app/5864fcd2_008.png)
+    ![Automator](/images/posts/webpage-to-app/5864fcd2_008.png)  
      실행 해볼까요? ▼
-     ![Automator](/images/posts/webpage-to-app/5864fcd2_009.png)
+     ![Automator](/images/posts/webpage-to-app/5864fcd2_009.png)  
 
 3. 응용 프로그램의 아이콘
     아이콘 변경은 이미 잘 정리되어있는 [원님의 블로그](http://macnews.tistory.com)를 참고 하시면 되겠습니다.
