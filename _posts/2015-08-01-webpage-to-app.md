@@ -14,10 +14,10 @@ Automator를 활용해서 자주가는 웹페이지를 앱으로 만들어 보�
 Automator를 실행하시고 작업흐름으로 생성해주세요.
 작업흐름으로 하는 이유는 마지막에 설명드리겠습니다. ▼
 ![Automator](/images/posts/webpage-to-app/5864fcd2_001.png)  
-이 두가지를 순서대로 추가해주세요.
-* Automator의 보관함 > 인터넷 > 지정된 URL 가져오기 ▼
+
+    Automator의 보관함 > 인터넷 > 지정된 URL 가져오기 ▼
 ![Automator](/images/posts/webpage-to-app/5864fcd2_002.png)
-* Automator의 보관함 > 인터넷 > 웹 사이트 팝업 ▼
+    Automator의 보관함 > 인터넷 > 웹 사이트 팝업 ▼
 ![Automator](/images/posts/webpage-to-app/5864fcd2_003.png)
 지정된 URL 가져오기에는 앱에서 실행될 웹페이지의 주소를 입력해주세요.  
 웹 사이트 팝업에서는 앱의 크기를 지정해줍니다.  
