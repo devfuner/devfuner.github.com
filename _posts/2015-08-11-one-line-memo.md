@@ -86,3 +86,7 @@ base_path = '/Users/devfuner/Dropbox/Public/dailymemo/'
 오늘 날짜로 새로운 TXT파일이 생기고 입력한 메모에 입력한 시간이 붙어서 입력됩니다.
 ![one-line-memo-007](/images/posts/one-line-memo/119f0b72_007.png)
 ![one-line-memo-008](/images/posts/one-line-memo/119f0b72_008.png)
+
+이 글도 참고하시면 좋습니다.
+[원님의 노트작성 레시피](http://macnews.tistory.com/2008)
+[원님의 nvALT를 활용한 워크플로](http://d.pr/f/ZC8z)
