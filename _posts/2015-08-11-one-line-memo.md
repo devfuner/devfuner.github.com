@@ -4,7 +4,7 @@ title: "빠르게 한줄 메모하기"
 category: blog
 tags: [Alfred, python, workflow, app]
 ---
-
+#작성중
 OS X을 사용하시는 분들은 이제 다 아실 알프레드!  
 알프레드를 이용한 한줄 메모를 빠르게 하기입니다.
 
