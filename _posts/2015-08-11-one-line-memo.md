@@ -47,36 +47,39 @@ Alfred의 설정창을 여시고 워크플로 탭을 선택하세요.
 이제 파이썬 스크립트를 복사해서 'Run Script'에 붙여넣기 해주세요.
 
 ```python
-    #!/usr/bin/env python
-    # -*- coding: utf-8 -*-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-    from datetime import datetime
-    import unicodedata
-    import sys
-    reload(sys)
-    sys.setdefaultencoding("utf-8")
+from datetime import datetime
+import unicodedata
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 
-    def get_date_format(dformat="%Y-%m-%d"):  # "%Y-%m-%d_%H-%M-%S"
-        d = datetime.now()
-        return d.strftime(dformat)
+def get_date_format(dformat="%Y-%m-%d"):  # "%Y-%m-%d_%H-%M-%S"
+    d = datetime.now()
+    return d.strftime(dformat)
 
-    base_path = '/Users/devfuner/Dropbox/Public/dailymemo/'
-    file_dailymemo = base_path + get_date_format() + '.txt'
+base_path = '/Users/devfuner/Dropbox/Public/dailymemo/'
+file_dailymemo = base_path + get_date_format() + '.txt'
 
-    q = u'{query}'
-    q2 = unicodedata.normalize('NFC', q)
-    q3 = q2.encode('utf-8')
+q = u'{query}'
+q2 = unicodedata.normalize('NFC', q)
+q3 = q2.encode('utf-8')
 
-    text = q3
+text = q3
 
-    with open(file_dailymemo, 'a') as f:
-        f.write('[%s] - %s\n' % (get_date_format("%H:%M:%S"), text))
-
-    그리고 base_path에 새로운 파일이 생길경로를 지정해주세요.  
-
-        base_path = '/Users/devfuner/Dropbox/Public/dailymemo/'
+with open(file_dailymemo, 'a') as f:
+    f.write('[%s] - %s\n' % (get_date_format("%H:%M:%S"), text))
 ```
+
+그리고 base_path에 새로운 파일이 생길경로를 지정해주세요.  
+
+```python
+base_path = '/Users/devfuner/Dropbox/Public/dailymemo/'
+```
+
 
 마지막 '/'까지 꼭 넣어주세요.  
 이제 테스트를 해보세요.  
