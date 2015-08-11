@@ -46,7 +46,7 @@ Alfred의 설정창을 여시고 워크플로 탭을 선택하세요.
 워크플로에서 사용하는 키워드(여기서는 ol)는 사용하기 편하신걸로 바꾸시면 됩니다.
 이제 파이썬 스크립트를 복사해서 'Run Script'에 붙여넣기 해주세요.
 
-    ```Python
+```python
     #!/usr/bin/env python
     # -*- coding: utf-8 -*-
 
@@ -76,7 +76,7 @@ Alfred의 설정창을 여시고 워크플로 탭을 선택하세요.
     그리고 base_path에 새로운 파일이 생길경로를 지정해주세요.  
 
         base_path = '/Users/devfuner/Dropbox/Public/dailymemo/'
-    ```
+```
 
 마지막 '/'까지 꼭 넣어주세요.  
 이제 테스트를 해보세요.  
