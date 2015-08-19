@@ -19,7 +19,7 @@ ffmpeg 명령어
     ffmpeg -i video-filename.mp4 -r 1 -t 30 image-filename-%2d.jpeg
 
 옵션의 자세한 내용은 나도 잘 모른다.
-이렇게 하는걸 검색해서 찾아고 이래 저래 따라 했을 뿐이다.
+이렇게 하는걸 검색해서 이래 저래 따라 했을 뿐이다.
 [FFmpeg 라이브러리 : 코덱과 영상 변환을 중심으로](http://www.hanbit.co.kr/ebook/look.html?isbn=9788968487729) 최근에 이런 책도 나왔던데 한번 보고 싶다.
 
 간단히 소개하자면 1초에 1프레임을 추출하는데 30초까지만 작동한다는 명령이다.
