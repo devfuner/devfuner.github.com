@@ -109,8 +109,8 @@ if __name__ == '__main__':
 그럼 우리는 복사된 이미지를 보고 해당 시간의 영상만 확인하면 된다.
 
 예시 이미지 01
-!(블랙박스 영상 이미지)[/images/posts/image-diff/e22c1219_001.jpeg]
+![블랙박스 영상 이미지](/images/posts/image-diff/e22c1219_001.jpeg)
 예시 이미지 02
-!(블랙박스 영상 이미지)[/images/posts/image-diff/e22c1219_002.jpeg]
+![블랙박스 영상 이미지](/images/posts/image-diff/e22c1219_002.jpeg)
 
 궁금하신 부분은 얼마든지 댓글로 남겨주세요.
