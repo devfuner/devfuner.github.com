@@ -114,3 +114,7 @@ if __name__ == '__main__':
 ![블랙박스 영상 이미지](/images/posts/image-diff/e22c1219_002.jpeg)
 
 궁금하신 부분은 얼마든지 댓글로 남겨주세요.
+
+###참고
+[여기서 사용한 ffmpeg 명령](http://linuxers.org/tutorial/how-extract-images-video-using-ffmpeg)
+[비슷한 이미지 비교 원 출처](http://likelink.co.kr/28756)
